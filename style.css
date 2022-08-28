@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color:#2b2922;
+    align-items: center;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 300px;
+    color: white;
+}
+.list .list-item {
+    padding-right: 50px;
+}
+
+.list-item:hover{
+    font-weight: bold;
+}
+.button-small {
+
+    padding:10px 30px;
+    border: 1px solid yellow;
+    border-radius: 10px;
+    background-color:#2b2922;
+    color: yellow;
+    font-size: 15px;
+}
+.hero{
+    background-color:#2b2922;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Heading {
+    font-size: 50px;
+    color: white;
+    width: 50%;
+}
+.Para {
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    width: 50%;
+    padding: 0 50px;
+}
+.BottomImg {
+    background: url(./law.png);
+    background-position: center;
+    height: 400px;
+    overflow: hidden;
+    width: 100%;
+    background-size: cover;
+}
+
+.container-main{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 100%;
+}
